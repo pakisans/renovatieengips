@@ -1,0 +1,65 @@
+{
+  "name": "renovationengips",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.0.0",
+    "@fortawesome/react-fontawesome": "^0.1.17",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "country-flag-icons": "^1.4.20",
+    "emailjs-com": "^3.2.0",
+    "i18next": "^21.6.11",
+    "localized-strings": "^0.2.4",
+    "nav": "^0.0.2",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-alice-carousel": "^2.5.1",
+    "react-animated-bg": "^1.2.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.15.4",
+    "react-icons": "^4.3.1",
+    "react-icons-kit": "^2.0.0",
+    "react-localization": "^1.0.17",
+    "react-navigation-menu": "^1.0.3",
+    "react-responsive": "^9.0.0-beta.6",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "5.0.0",
+    "react-simple-image-slider": "^2.3.0",
+    "react-slideshow-image": "^3.7.0",
+    "react-social-icons": "^5.8.0",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^2.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "sass": "^1.49.5",
+    "style-loader": "^3.3.1"
+  }
+}

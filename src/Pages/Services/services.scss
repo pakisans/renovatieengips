@@ -1,0 +1,143 @@
+#servicesMain{
+    .headerService1{
+        position: relative;
+        height: 400px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+
+        .content1{
+            position: relative;
+            z-index: 1;
+            margin-bottom: 150px;
+            margin: 0 auto;
+            width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+            max-width: 1300px;
+
+            .header-content1{
+                max-width: 750px;
+                margin-left: 50px;
+
+                .span-title1{
+                    margin-bottom: 0;
+                    color: #fff;
+                    font-size: 60px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+        .header-image1{
+            position: absolute;
+            top: 0;
+            z-index: 0;
+            width: 100%;
+            height: 100%;
+
+            .image1{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                opacity: .9;
+            }
+        }
+                .cards21{
+                    width: auto;
+                    height: auto;
+                    margin: -150px 250px 10px 250px;
+                    background-color: #89888a;
+                    padding-bottom: 20px;
+                    z-index: 30;
+                    position: relative;
+
+                    .wraper21{
+                        margin: 0;
+                        width: 100%;
+                        justify-content: flex-start;
+                        flex-wrap: wrap;
+                        flex-direction: row;
+                        display: flex;
+
+                        .singlecard{
+                            display: flex;
+                            flex-direction: column;
+                            border: 1px solid red;
+                            border-radius: 5px;
+                            margin: 20px 33px 0px 33px;
+                            text-align: center;
+                            width: 400px;
+                            height: 500px;
+                            background: #ffff;
+                            
+                            .itemContent{
+                                h3{
+                                    font-size: 20px;
+                                    padding-top: 10px;
+                                    color: black;
+                                }
+                                p {
+                                    padding: 10px 20px 10px 20px;
+                                    color: black;
+                                    font-size: 0.9vw;
+                                }
+                                @media screen and (max-device-width: 480px)  {
+                    
+                                    p {
+                                        font-size: 16px;
+                                    }
+                                    
+                                }
+                            }
+                        
+                            .boxImage{
+                                width: 100%;
+                                height: 18vh;
+                                cursor: pointer;
+                            }
+                        }
+                        @media screen and (min-width: 1200px) and (max-device-width: 1600px)  {
+                    
+                            .singlecard {
+                                width: 350px;
+                                height: 400px;
+                                margin: 20px 15px 0px 15px;
+                            }
+                        }
+
+                        @media screen and (max-device-width: 480px)  {
+                    
+                            .singlecard {
+                                width: 350px;
+                                height: 400px;
+                                margin: 20px 15px 0px 15px;
+                            }
+                            
+                        }
+                        
+                    
+                }
+            }
+            @media screen and (min-width: 1200px) and (max-device-width: 1600px)  {
+                    
+                .cards21 {
+                    // width: 1140px;
+                    width: calc(100% - 300px);
+                    margin: -150px 150px 10px 150px;
+                }
+                
+            }
+
+            @media screen and (max-device-width: 480px)  {
+                    
+                .cards21 {
+                    width: calc(100% - 100px);
+                    margin: -150px 150px 10px 50px;
+                }
+                
+            }
+}
+
